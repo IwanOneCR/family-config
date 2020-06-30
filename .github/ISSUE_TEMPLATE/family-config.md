@@ -9,8 +9,8 @@ assignees: ''
 
 Consult https://github.com/RoyaleAPI/cr-api-ux/wiki/Family-Config for detailed description of all the fields. Here are some tips:
 
-- `color`: should be all lower case
-- `key`: will be used in the URL. Convention is to use all lower case
+- `color`: blue
+- `key`: Indonesia
 - `emblem`: flag_e_02
 - `description` and `links`: Fam: Putra, Putri, Kita Indonesia
 - `tag`: 99PCY
@@ -19,15 +19,16 @@ Fill in the configuration below:
 
 ```yaml
 name: Keluarga Indonesia
-key:
-color: Red
+key:Indonesia
+color: red
 emblem: flag_e_02
 info: 
-  logo:
+  logo: https://imgur.com/2MO97Mh
   description: >
    Anak Indonesia
    Fam: Putra, Putri, Kita Indonesia
    Unity In Diversity
+   Since: 19-02-2016
  
 clans:
   - name: Putra Indonesia
