@@ -11,42 +11,29 @@ Consult https://github.com/RoyaleAPI/cr-api-ux/wiki/Family-Config for detailed d
 
 - `color`: should be all lower case
 - `key`: will be used in the URL. Convention is to use all lower case
-- `emblem`: do not include the file extension `.png`
-- `description` and `links`: delete the lines if you have none
-- `tag`:  do not include the `#` hash tag with the clan tags
+- `emblem`: flag_e_02
+- `description` and `links`: Fam: Putra, Putri, Kita Indonesia
+- `tag`: 99PCY
 
 Fill in the configuration below:
 
 ```yaml
-name:
+name: Keluarga Indonesia
 key:
-color:
-emblem:
-info:
+color: Red
+emblem: flag_e_02
+info: 
   logo:
   description: >
-    Long paragraphs with markdown syntax.
-
-
-    Add new line with 2 line breaks as above.
-  social:
-    - twitter: http://twitter.com/
-    - discord: http://discord.gg/
-    - twitch: https://www.twitch.tv/
-    - reddit: http://www.reddit.com/
-    - youtube: https://www.youtube.com/channel/
-    - website: http://docs.redditalpha.com
-    - instagram: https://instagram.com/
-    - facebook: https://facebook.com/
-    - twitch: https://twitch.tv/
-    - youtube: https://www.youtube.com/channel/
-    - application: https://url/
-    - email: mailto:
+   Anak Indonesia
+   Fam: Putra, Putri, Kita Indonesia
+   Unity In Diversity
+ 
 clans:
-  - name: 100T Alpha
-    tag: 9PJ82CRC
-  - name:
-    tag:
-  - name:
-    tag:
+  - name: Putra Indonesia
+    tag: 9U02ULYJ
+  - name: Putri Indonesia
+    tag: Y20CRPPL
+  - name: Kita Indonesia
+    tag: YCGQ88RP
 ```
